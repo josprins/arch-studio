@@ -1,0 +1,14 @@
+.Leaders {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 567px) {
+  .Leaders {
+    margin: auto;
+  }
+
+  .Leaders h3 {
+    margin: auto;
+  }
+}

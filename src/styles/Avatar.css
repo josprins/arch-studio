@@ -1,0 +1,66 @@
+.Avatar {
+  max-width: 350px;
+}
+
+.Avatar-img {
+  position: relative;
+  cursor: pointer;
+  width: 350px;
+}
+
+.Avatar-icons {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  opacity: 0;
+  transition: ease-in-out all 0.5s;
+}
+
+.Avatar-img:hover .Avatar-icons {
+  opacity: 1;
+}
+
+.Avatar h5 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.Avatar-dark-icons {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .Avatar {
+    max-width: 280px;
+  }
+
+  .Avatar-img {
+    width: 280px;
+  }
+
+  .Avatar-img img {
+    width: 100%;
+  }
+
+  .Avatar-icons {
+    display: none;
+  }
+
+  .Avatar-dark-icons {
+    display: block;
+  }
+}
+
+@media (max-width: 567px) {
+  .Avatar {
+    max-width: 311px;
+    margin: auto;
+    padding-left: 0;
+  }
+
+  .Avatar-img {
+    width: 311px;
+  }
+}

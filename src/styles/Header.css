@@ -1,0 +1,42 @@
+.Navbar {
+  height: 152px;
+  z-index: 99;
+}
+
+.Navbar-link-active {
+  color: var(--main-color);
+  position: relative;
+}
+
+.Navbar-link-active::after {
+  position: absolute;
+  content: '';
+  top: 30px;
+  left: 25%;
+  width: 20px;
+  height: 2px;
+  background: var(--main-color);
+}
+
+@media (max-width: 567px) {
+  .Navbar {
+    height: 96px;
+    width: 100%;
+  }
+
+  .Navbar-links {
+    background: var(--very-light-color);
+    transform: translateY(38px);
+    margin-left: 30px;
+    text-align: left;
+    font-weight: 700;
+  }
+
+  .Navbar button {
+    margin-right: 10px !important;
+  }
+
+  .Navbar-link-active::after {
+    display: none;
+  }
+}

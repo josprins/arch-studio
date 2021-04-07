@@ -1,0 +1,27 @@
+.ImageCard {
+  position: relative;
+  cursor: pointer;
+}
+
+.ImageCard img {
+  filter: brightness(70%);
+  min-width: 100%;
+}
+
+.ImageCard-text {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #ffffff;
+}
+
+.ImageCard-text h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.ImageCard-text p {
+  color: #ffffff;
+  opacity: 0.6;
+}
