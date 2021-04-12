@@ -12,22 +12,22 @@ import Contact from './component/contact/Contact';
 
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
-        <Container className="p-0 ">
+        <Container className='p-0 '>
           <Header />
 
           <Switch>
-            <Route path="/" exact>
+            <Route path='/arch-studio' exact>
               <Home />
             </Route>
-            <Route path="/about" exact>
+            <Route path='/about' exact>
               <About />
             </Route>
-            <Route path="/portfolio" exact>
+            <Route path='/portfolio' exact>
               <Portfolio />
             </Route>
-            <Route path="/contact" exact>
+            <Route path='/contact' exact>
               <Contact />
             </Route>
           </Switch>
