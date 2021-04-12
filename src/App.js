@@ -18,7 +18,7 @@ const App = () => {
           <Header />
 
           <Switch>
-            <Route path='/arch-studio' exact>
+            <Route path='/home' exact>
               <Home />
             </Route>
             <Route path='/about' exact>
